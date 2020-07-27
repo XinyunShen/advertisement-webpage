@@ -1,0 +1,48 @@
+.article{
+    line-height: 15px;
+}
+.icon{
+    height: auto;
+    width: auto\9;
+    width:100%;
+    align-items: center;
+}
+
+.user_pic{
+    height: auto;
+    width: auto\9;
+    width:35%;
+    align-items: center;
+    border-radius: 50%;
+}
+.event_pic{
+    height: auto;
+    width: auto\9;
+    width:100%;
+    align-items: center;
+}
+
+.install{
+    height: auto;
+    width: auto\9;
+    width:70%;
+    align-items: center;
+}
+
+.g_size{
+    height: auto;
+    width: auto\9;
+    width:10%;
+    align-items: center;
+    border-radius: 50%;
+    text-align: end;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.mid{
+    width: 50rpx;
+    text-align: left;
+    display: inline-block;
+    vertical-align: middle;
+}

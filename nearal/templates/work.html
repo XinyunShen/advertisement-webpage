@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Nearal
+    </title>
+        <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body style="background-color:#fdfdfd;">
+    <div>
+        <img class = "icon" alt="logo" src="/static/images/nearal.png">
+    </div>
+    <div class="article">
+        <p>&nbsp;</p>
+        <p align="center">
+            <!-- from dictionary -->
+            <img class="user_pic" src="/static/images/{{work.img_url}}" alt="">
+        </p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p style="text-align: center; font-size: 33px;"><b>{{work.position}}</b></p>
+        <p style="text-align: center; font-size: 24px;">&#64; {{work.company}}</p>
+        <p style="text-align: center; font-size: 21px;">{{work.location}}</p>
+
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p style="text-align: center; font-size: 18px;">Apply this job via</p>
+        <p align="center">
+            {% if phone == 'ios' %}
+                <a href = "https://apps.apple.com/us/app/nearal/id1449345424">
+                    <img class="install"src="/static/images/install.png" alt="">
+                </a>
+            {% else %}
+                <a href = "https://play.google.com/store/apps/details?id=com.nearal.android&hl=en_US">
+                    <img class="install"src="/static/images/install.png" alt="">
+                </a>
+            {% endif %}
+        </p>
+        <p style="text-align: center; font-size: 15px;">more jobs are in this app</p>
+    </div>
+</body>
+
+</html>

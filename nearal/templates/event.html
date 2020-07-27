@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>
+        Nearal
+    </title>
+        <meta charset="UTF-8">
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body style="background-color:#fdfdfd;">
+    <div>
+        <img class = "icon" alt="logo" src="/static/images/nearal.png">
+    </div>
+    <div class="article">R
+        <p align="center">
+            <img class="event_pic" src="/static/images/{{event.img_url}}" alt="">
+        </p>
+        <p>&nbsp;</p>
+        <p style="text-align: center; font-size: 28px;"><b>{{event.name}}</b></p>
+        <p style="text-align: center; font-size: 20px; line-height: 20px;">{{event.start_time}} to</p>
+        <p style="text-align: center; font-size: 20px; line-height: 20px;">{{event.end_time}} </p>
+        <p style="text-align: center; font-size: 20px; line-height: 20px;">{{event.location}}</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p style="text-align: center; font-size: 17px;">Learn more or Join event via</p>
+        <p align="center">
+            {% if phone == 'ios' %}
+                <a href = "https://apps.apple.com/us/app/nearal/id1449345424">
+                    <img class="install"src="/static/images/install.png" alt="">
+                </a>
+            {% else %}
+                <a href = "https://play.google.com/store/apps/details?id=com.nearal.android&hl=en_US">
+                    <img class="install"src="/static/images/install.png" alt="">
+                </a>
+            {% endif %}
+        </p>
+    </div>
+</body>
+
+</html>
