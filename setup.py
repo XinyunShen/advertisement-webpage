@@ -20,7 +20,7 @@ setup(
         'pydocstyle==5.0.2',
         'pylint==2.5.3',
         'pytest==5.4.3',
-        'requests==2.24.0',
+        'requests==2.31.0',
     ],
     python_requires='>=3.6',
 )
